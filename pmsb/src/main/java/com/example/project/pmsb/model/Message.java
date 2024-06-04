@@ -25,5 +25,5 @@ public class Message {
     private Chat chat;
 
     @ManyToOne
-    private User user;
+    private User sender;
 }
